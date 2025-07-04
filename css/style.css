@@ -1,0 +1,83 @@
+#site-header{
+    color: white;
+    background-color: rgb(182, 41, 41);
+    border: black solid 2px;
+    border-radius: 5px;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding: 10px 0 10px 0;
+}
+
+h1{
+    text-shadow: 0 3px black;
+    font-size: 50px;
+}
+
+p{
+    font-size: small;
+}
+
+#blank-space{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-color: black;
+    border: solid 3px;
+}
+
+#double-letter-space{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(101, 101, 247);
+    border-color: black;
+    border: solid 3px;
+
+}
+
+#double-word-space{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-color: black;
+    border: solid 3px;
+}
+
+#scrabble-board{
+    width: 80%;
+    height: 90px;
+    margin: auto;
+}
+
+#rack{
+    width: 40%;
+    height: 150px;
+    margin: auto;
+}
+
+.start-game{
+    background-color: rgb(182, 41, 41);
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: black solid 2px;
+}
+.enter-word{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(182, 41, 41);
+    color: white;
+    border: black solid 2px;
+}
+
+.replace-tile{
+    display: inline-block;
+    background-color: white;
+    height: 100px;
+    width: 500px;
+    margin-left: 500px;
+}
